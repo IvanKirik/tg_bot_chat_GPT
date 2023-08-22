@@ -5,7 +5,6 @@ import {message} from 'telegraf/filters';
 import {code} from "telegraf/format";
 import {openAI} from "../services/openAi.service";
 import {RolesType} from "../type/roles.type";
-import config from "config";
 
 export class TextCommand extends Command {
 
