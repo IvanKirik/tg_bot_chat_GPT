@@ -1,0 +1,31 @@
+{
+  "name": "tg-bot-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon ./dist/app.js",
+    "start": "cross-env NODE_ENV=production node ./dist/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/config": "^3.3.0",
+    "@types/fluent-ffmpeg": "^2.1.21",
+    "cross-env": "^7.0.3",
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "@types/node": "^20.4.5",
+    "axios": "^1.4.0",
+    "config": "^3.3.9",
+    "dotenv": "^16.3.1",
+    "fluent-ffmpeg": "^2.1.2",
+    "openai": "^3.3.0",
+    "stream-to-blob": "^2.0.1",
+    "telegraf": "^4.12.2",
+    "telegraf-session-local": "^2.1.1"
+  }
+}
