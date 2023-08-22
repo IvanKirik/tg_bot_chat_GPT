@@ -1,5 +1,5 @@
 {
-  "name": "tg-bot-ts",
+  "name": "bot_chat_open_ai",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -8,7 +8,7 @@
     "start": "node ./dist/app.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "IvanKirik",
   "license": "ISC",
   "devDependencies": {
     "@types/config": "^3.3.0",
